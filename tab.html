@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Tabs</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="https://jqueryui.com/tabs/resources/demos/style.css">
+  <script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+  </script>
+</head>
+<body>
+ 
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">SNS</a></li>
+    <li><a href="#tabs-2">Advertcn</a></li>
+    <li><a href="#tabs-3">TechCrunch</a></li>
+	<li><a href="#tabs-4">Tool.cc</a></li>
+  </ul>
+  <div id="tabs-1">
+	<iframe src="http://wx.qq.com" height=500 width=1000 ></iframe>
+	<iframe src="http://w.qq.com" height=500 width=400 ></iframe>
+	<iframe src="http://m.dict.cn/" height=500 width=400 ></iframe>
+  </div>
+  <div id="tabs-2">
+    <iframe src="http://www.advertcn.com/forum.php" height=1024 width=100% ></iframe>
+  </div>
+  <div id="tabs-3">
+	<iframe src="http://techcrunch.com/" height=1024 width=100% ></iframe>
+  </div>
+  <div id="tabs-4">
+	<iframe src="http://www.tool.cc/typo/" height=1024 width=100% ></iframe>
+  </div>
+</div>
+ 
+ 
+</body>
+</html>
+
